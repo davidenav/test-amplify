@@ -4,20 +4,43 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@aws-amplify/react-native": "^1.1.6",
+    "@aws-amplify/ui-react-native": "^2.3.0",
+    "@expo/metro-runtime": "~4.0.0",
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-native-community/datetimepicker": "^8.2.0",
+    "@react-native-community/netinfo": "^11.4.1",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "aws-amplify": "^6.11.0",
     "expo": "~52.0.23",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.5"
+    "react-native": "0.76.5",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.4.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "~0.19.13"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.11.0",
+    "@aws-amplify/backend-cli": "^1.4.5",
     "@babel/core": "^7.25.2",
+    "@types/aws-lambda": "^8.10.146",
     "@types/react": "~18.3.12",
-    "typescript": "^5.3.3"
+    "aws-cdk": "^2.173.4",
+    "aws-cdk-lib": "^2.173.4",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "@react-native-community/cli": "latest"
   },
   "private": true
 }
